@@ -1,0 +1,278 @@
+.rectangle{
+
+width: 78%;
+
+height: 90px;
+
+/* border:1px solid; */
+
+margin:auto;
+
+/* background: #505460; */
+background: #b5bac0;
+
+/* font-style: italic; */
+
+font-size: 60;
+
+font-weight: bold;
+
+/* border-radius: 0px 0px 500px 500px; */
+
+padding-top:22px;
+
+}
+
+
+.text_with_shadows{
+
+color: #ffffff;
+
+text-align: center;
+
+line-height: 50px;
+
+box-shadow: 0 14px 28px rgba(0, 0, 0, 0.26), 0 4px 12px rgba(0, 0, 0, 0.31);
+
+}
+
+.header_font{
+	
+	color:#4CAF50;
+	
+	text-shadow: 1px 1px 1px #000;
+}
+
+.new_header_font{
+	
+	color:#4CAF50;
+	
+	text-shadow: 1px 1px 1px #000;
+	
+	margin:auto;
+	
+	font-size: 60;
+	
+	text-align:center;
+	
+    
+	
+	
+}
+
+.background-color{
+	
+	color:#E1EE84
+}
+
+.rectangle_options{
+
+width: 65%;
+
+height: 60px;
+
+border:1px solid;
+
+margin:auto;
+
+margin-top:30px;
+
+background: #b5bac0;
+
+font-style: italic;
+
+font-size: 60;
+
+font-weight: bold;
+
+}
+
+.rectangle_main{
+
+width: 69%;
+
+height: 1020px;
+
+border:1px solid;
+
+margin:auto;
+
+margin-top:70px;
+
+background: #333;
+
+/*font-style: italic;*/
+
+font-size: 50;
+
+font-weight: bold;
+
+color:#ffff;
+
+padding-left:25px;
+
+padding-right:10px;
+
+border-radius: 20px;  /*Округление графического элемента*/
+
+}
+
+.text_below_header{
+	
+	font-size:20;
+	
+	/* font-weight:bold; */
+	
+	color:#ffff;
+	
+	padding-left:50px;
+	
+	
+}
+
+.name_of_catac{
+	font-size:39;
+	
+	padding-left:50px;
+	
+	padding-top:15px;
+
+	color:#4CAF50;
+}
+
+
+
+a.idTop {
+ position: fixed; /*позиционирование кнопки фиксированное*/
+ z-index: 9999; /*отображаем поверх всех элементов*/
+ bottom: 0%; /*положение снизу*/
+ right: 0%; /*положение справа*/
+ background: #4CAF50; /*фон, можно указать любую картинку*/
+ opacity: .6; /*прозрачность*/
+ color: #fff; /*цвет текста*/
+ padding: 10px; /*внутренние отступы*/
+ margin: 5px 15px 15px 5px; /*внешние отступы*/
+}
+a.idTop:hover {
+ opacity: 1;
+}
+
+/*Кнопки под заголовком*/
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+
+/*ЭТО КОД ДЛЯ КАРТИНОК*/
+
+/* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+	padding-left:50px;
+	padding-top:10px;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+
+
+/*КОНЕЦ КОДА ДЛЯ КАРТИНОК*/
